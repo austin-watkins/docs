@@ -1,0 +1,158 @@
+\documentclass{article}
+ 
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\graphicspath{{./images/}}
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName}
+\chead{\hmwkClass\ (\hmwkClassInstructor): \hmwkTitle}
+\rhead{\firstxmark}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+% Create Problem Sections
+
+\newcommand{\enterProblemHeader}[1]{
+    \nobreak\extramarks{}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+    \nobreak\extramarks{Problem \arabic{#1} (continued)}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+}
+
+\newcommand{\exitProblemHeader}[1]{
+    \nobreak\extramarks{Problem \arabic{#1} (continued)}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+    \stepcounter{#1}
+    \nobreak\extramarks{Problem \arabic{#1}}{}\nobreak{}
+}
+
+\setcounter{secnumdepth}{0}
+\newcounter{partCounter}
+\newcounter{homeworkProblemCounter}
+\setcounter{homeworkProblemCounter}{1}
+\nobreak\extramarks{Problem \arabic{homeworkProblemCounter}}{}\nobreak{}
+
+% Homework Problem Environment
+\newenvironment{homeworkProblem}[1][-1]{
+    \ifnum#1>0
+        \setcounter{homeworkProblemCounter}{#1}
+    \fi
+    \section{Problem \arabic{homeworkProblemCounter}}
+    \setcounter{partCounter}{1}
+    \enterProblemHeader{homeworkProblemCounter}
+}{
+    \exitProblemHeader{homeworkProblemCounter}
+}
+
+
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Instructor
+%   - Author
+%
+
+% todo: Modify for class:
+\newcommand{\hmwkTitle}{Homework 1}
+\newcommand{\hmwkDueDate}{4 September 2020}
+\newcommand{\hmwkClass}{CS 5630}
+\newcommand{\hmwkClassInstructor}{Professor Alexander Lex}
+\newcommand{\hmwkAuthorName}{\textbf{Austin Watkins}}
+\newcommand{\hmwkAuthorInfo}{\textbf{u1197982@utah.edu \ u1197982}}
+
+%
+% Title Page
+%
+
+\title{
+    \vspace{2in}
+    \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+    \normalsize\vspace{0.1in}\small{Due \ \hmwkDueDate }\\
+    \vspace{0.1in}\large{\textit{\hmwkClassInstructor}}
+    \vspace{3in}
+}
+
+\author{\hmwkAuthorName \ \hmwkAuthorInfo }
+% todo: Modify for class:
+\date{4 September 2020}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+% Alias for the Solution section header
+\newcommand{\solution}{\textbf{\large Solution}}
+\newcommand{\selfnote}[1]{\textcolor{red}{#1}}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+
+%\begin{homeworkProblem}
+%    \textbf{Solution}
+%
+%    \textbf{Part One}
+%
+%    \textbf{Part Two}
+%
+%    \textbf{Part Three}
+%
+%\end{homeworkProblem}
+% \pagebreak
+
+%
+% Non sequential homework problems
+%
+% Jump to problem 18
+%\begin{homeworkProblem}[18]
+  %test
+%\end{homeworkProblem}
+
+% Continue counting to 19
+%\begin{homeworkProblem}
+%\end{homeworkProblem}
+
+% Go back to where we left off
+%\begin{homeworkProblem}[6]
+%\end{homeworkProblem}
+% 
+
+% visualization:
+%   \selfnote{Introduce the visual to provide context.}
+%   \selfnote{Provide an appropriate description. A description in accordance with readers background knowledge.}
+%   \selfnote{Clarification why this visual is included in the text. It's purpose.}
+%  \begin{figure}[h]
+%    \includegraphics[width=\textwidth]{jobs}
+%    \caption{\selfnote{CAPTION HERE - and a short matter of fact description}}
+%    \label{fig:SOMETHING}
+%  \end{figure}
+
+\begin{homeworkProblem}
+  % todo: Start here
+\end{homeworkProblem}
+
+\end{document}
